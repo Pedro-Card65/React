@@ -3,8 +3,19 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  background-color: #E65A49;
+  color: white;
 }
 
-img {
-  width: 400px;
+.links {
+        display: flex;
+        gap: 0.5rem;
+        margin: 1rem;
+    }
+
+button {
+  background-color: #91645E;
+  color: white;
+  width: 5rem;
+  height: 2rem;
 }

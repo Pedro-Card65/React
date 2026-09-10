@@ -1,7 +1,9 @@
 import './index.scss';
 import App from './pages/app/App';
 import './pages/contato/index.scss';
-import Contato from './pages/contato/index.jsx'
+import Contato from './pages/contato/index.jsx';
+import './pages/event/index.scss';
+import Evento from './pages/event/index.jsx';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 export default function Router(){
@@ -10,6 +12,7 @@ export default function Router(){
         <Routes>
             <Route path = '/' element = {<App/>} />
             <Route path = '/pages/contato/index.jsx' element = {<Contato/>} />
+            <Route path = '/pages/event/index.jsx' element = {<Evento/>} />
         </Routes>
     </BrowserRouter>
     );
