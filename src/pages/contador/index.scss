@@ -1,0 +1,20 @@
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .bot{
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+
+        p {
+            font-size: 2rem;
+        }
+    }
+
+    .volta {
+        display: flex;
+        align-items: center;
+    }
+}

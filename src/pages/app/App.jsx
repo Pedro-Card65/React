@@ -15,6 +15,10 @@ export default function App() {
         <Link to = '/pages/event/index.jsx'>
           <button>Eventos</button>
         </Link>
+
+        <Link to = '/pages/contador/index.jsx'>
+          <button>Contador</button>
+        </Link>
       </div>
     </div>
   );
