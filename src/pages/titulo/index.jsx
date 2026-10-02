@@ -8,7 +8,7 @@ export default function Titulo() {
     function mudar(e) {
         let novoTitulo = e.target.value;
         setTittle(novoTitulo)
-            if (novoTitulo == ''){
+            if (novoTitulo === ''){
                 setTittle("Beibe beibe do biruleibe beibe")
             }
     }
