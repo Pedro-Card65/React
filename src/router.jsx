@@ -1,14 +1,22 @@
 import './index.scss';
 import App from './pages/app/App';
+
 import './pages/contato/index.scss';
 import Contato from './pages/contato/index.jsx';
+
 import './pages/event/index.scss';
 import Evento from './pages/event/index.jsx';
+
 import './pages/contador/index.scss'
 import Contador from './pages/contador/index.jsx'
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+
 import Tittle from './pages/titulo/index.jsx';
 import './pages/titulo/index.scss';
+
+import Calculadora from './pages/calculator/index.jsx';
+import './pages/titulo/index.scss'
+
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 export default function Router(){
     return(
@@ -19,6 +27,7 @@ export default function Router(){
             <Route path = '/pages/event/index.jsx' element = {<Evento/>} />
             <Route path = '/pages/contador/index.jsx' element = {<Contador/>} />
             <Route path = '/pages/titulo/index.jsx' element = {<Tittle/>} />
+            <Route path = '/pages/calculadora/index.jsx' element = {<Calculadora/>} />
         </Routes>
     </BrowserRouter>
     );

@@ -23,6 +23,10 @@ export default function App() {
         <Link to = '/pages/titulo/index.jsx'>
           <button>Titulo</button>
         </Link>
+
+        <Link to = '/pages/calculadora/index.jsx'>
+          <button>Calculadora</button>
+        </Link>
       </div>
     </div>
   );

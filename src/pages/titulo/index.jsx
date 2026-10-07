@@ -37,6 +37,7 @@ export default function Titulo() {
     }
 
 
+
     return (
         <div className = "titulo" style = {{backgroundColor : cor}}>
             <div className = "box">
