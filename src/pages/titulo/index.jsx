@@ -2,6 +2,8 @@ import './index.scss';
 import { Link } from 'react-router-dom';
 import { useState } from 'react'
 
+import Header from '../../components/header';
+
 export default function Titulo() {
     const [tittle, setTittle] = useState("Beibe beibe do biruleibe beibe")
     
@@ -40,6 +42,9 @@ export default function Titulo() {
 
     return (
         <div className = "titulo" style = {{backgroundColor : cor}}>
+
+            <Header/>
+
             <div className = "box">
                 <h1>Digite algo para alterar o seguinte texto:</h1>
 

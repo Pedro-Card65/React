@@ -1,18 +1,25 @@
-.conts {
+.sess {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1rem;
 
-    img {
-        width: 5rem;
-        border-radius: 5rem;
-    }
-
-    .zap, .telegram {
+    .conts {
         display: flex;
+        flex-direction: column;
         align-items: center;
-        gap: 0.5rem;
-    }
+        gap: 1rem;
 
+        img {
+            width: 5rem;
+            border-radius: 5rem;
+        }
+
+        .zap, .telegram {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
     
+    }
 }

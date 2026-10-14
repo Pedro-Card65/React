@@ -2,6 +2,8 @@ import './index.scss';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
+import Header from '../../components/header';
+
 export default function Contador(){
     const [contador, setConts] = useState(0)
 
@@ -15,7 +17,7 @@ export default function Contador(){
 
     return (
         <div className="cont">
-           
+           <Header/>
 
             <div className="bot">
                 <button onClick = {menos}> - </button>
@@ -25,7 +27,7 @@ export default function Contador(){
 
             <div className = "volta">
             <Link to = '/'>
-                <button>Início</button>
+                <button>Home</button>
             </Link>
             </div>
         </div>

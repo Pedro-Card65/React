@@ -2,6 +2,8 @@ import './index.scss';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
+import Header from '../../components/header';
+
 export default function Calculadora() {
     const [n1, setn1] = useState("")
     const [n2, setn2] = useState("")
@@ -29,6 +31,8 @@ export default function Calculadora() {
 
     return (
         <div className="calculadora">
+
+            <Header/>
 
             <h2>Calculadora</h2>
             

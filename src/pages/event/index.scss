@@ -1,6 +1,8 @@
 .eventos{
 
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     .eventBox {
     width: 30rem;
     height: 20rem;
