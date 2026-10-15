@@ -1,6 +1,7 @@
 import './App.scss';
 
 import Header from '../../components/header';
+import Footer from '../../components/footer'
 
 export default function App() {
   return (
@@ -9,10 +10,9 @@ export default function App() {
 
       <h2>Página</h2>
       <h3>Seja bem vindo ao meu primeiro programa de React 😁</h3>
-      <img src="/assets/images/inuyasha.gif" alt="" />
+      <img id='inu' src="/assets/images/inuyasha.gif" alt="" />
 
-      
-
+      <Footer/>
     </div>
   );
 }
