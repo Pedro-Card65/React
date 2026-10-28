@@ -1,8 +1,8 @@
 import './index.scss';
-import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
 import Header from '../../components/header';
+import Footer from '../../components/footer';
 
 export default function Calculadora() {
     const [n1, setn1] = useState("")
@@ -76,9 +76,7 @@ export default function Calculadora() {
 
             <div className = 'resp'>{resp}</div>
 
-            <Link to = '/'>
-                <button>Home</button>
-            </Link>
+            <Footer/>
         </div>
     )
 }

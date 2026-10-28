@@ -29,6 +29,10 @@ export default function Header(props) {
                 <button>Calculadora</button>
                 </Link>
 
+                <Link to = '../pages/cinema/index.jsx'>
+                    <button>Cinema</button>
+                </Link>
+
             </div>
         </div>
     )

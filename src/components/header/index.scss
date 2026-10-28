@@ -4,10 +4,29 @@
     align-items: center;
     justify-content: center;
 
-    width: 75vw;
-    height: auto;
+    width: 100vw;
+    height: 14vh;
     background-color: #924c54;
-    border-radius: 25rem;
 
     color: white;
+
+    .links {
+        display: flex;
+        gap: 0.5rem;
+        margin: 1rem;
+
+        button {
+          background-color: #ffffff;
+          color: #924c54;
+          width: 5.5rem;
+          height: 2rem;
+          border-radius: 25rem;
+
+          font-family: "Roboto Condensed", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: 500;
+          font-style: normal;
+        }
+
+    }
 }
